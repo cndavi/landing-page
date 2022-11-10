@@ -1,11 +1,15 @@
-import { theme } from '../theme';
-import { device } from '../util/media-query';
+import { theme } from '../theme'
+import { device } from '../util/media-query'
 
-export type HeadingType = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
-export type ParagraphType = 'p' | 'span' | 'label';
-export type ParagraphSize = 'large' | 'medium' | 'small';
-export type TextTransformType = 'none' | 'lowercase' | 'uppercase' | 'capitalize';
-export type TextAlignType = 'center' | 'left' | 'right' | 'justify';
+export type HeadingType = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6'
+export type ParagraphType = 'p' | 'span' | 'label'
+export type ParagraphSize = 'large' | 'medium' | 'small'
+export type TextTransformType =
+  | 'none'
+  | 'lowercase'
+  | 'uppercase'
+  | 'capitalize'
+export type TextAlignType = 'center' | 'left' | 'right' | 'justify'
 
 export const typeStyle: Record<HeadingType | ParagraphSize, string> = {
   h1: `
@@ -19,9 +23,9 @@ export const typeStyle: Record<HeadingType | ParagraphSize, string> = {
     }
   `,
   h2: `
-		font-family: ${theme.font.heading};
-		font-weight: 700;
-		line-height: 1.2;
+	font-family: ${theme.font.heading};
+	font-weight: 700;
+	line-height: 1.2;
     font-size: 3rem;
 
     @media only screen and ${device.desktop} {
@@ -29,9 +33,9 @@ export const typeStyle: Record<HeadingType | ParagraphSize, string> = {
     }
   `,
   h3: `
-		font-family: ${theme.font.heading};
-		font-weight: 700;
-		line-height: 1;
+	font-family: ${theme.font.heading};
+	font-weight: 700;
+	line-height: 1;
     font-size: 2.2rem;
 
     @media only screen and ${device.desktop} {
@@ -39,9 +43,9 @@ export const typeStyle: Record<HeadingType | ParagraphSize, string> = {
     }
   `,
   h4: `
-		font-family: ${theme.font.heading};
-		font-weight: 700;
-		line-height: 1;
+  	font-family: ${theme.font.heading};
+	font-weight: 700;
+	line-height: 1;
     font-size: 1.9rem;
 
     @media only screen and ${device.desktop} {
@@ -91,4 +95,4 @@ export const typeStyle: Record<HeadingType | ParagraphSize, string> = {
       font-size: 1.4rem;
     }
   `,
-};
+}
