@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Bogart-Light";
+  src: local("Bogart-Light-Trial"),
+  url("./fonts/Bogart-Light-Trial.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Bogart-Medium";
+  src: local("Bogart-Medium-Trial"),
+  url("./fonts/Bogart-Medium-Trial.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Bogart-Regular";
+  src: local("Bogart-Regular-Trial"),
+  url("./fonts/Bogart-Regular-Trial.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Bogart-Bold";
+  src: local("Bogart-Bold-Trial"),
+  url("./fonts/Bogart-Bold-Trial.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Biotif-Light";
+  src: local("Biotif-Light"),
+  url("./fonts/Biotif-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Biotif-Medium";
+  src: local("Biotif-Medium"),
+  url("./fonts/Biotif-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Biotif-SemiBold";
+  src: local("Biotif-SemiBold"),
+  url("./fonts/Biotif-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Biotif-Bold";
+  src: local("Biotif-Bold"),
+  url("./fonts/Biotif-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Biotif-Black";
+  src: local("Biotif-Black"),
+  url("./fonts/Biotif-Black.woff") format("woff");
+}
